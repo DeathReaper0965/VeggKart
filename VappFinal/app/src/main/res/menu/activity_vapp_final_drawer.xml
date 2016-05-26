@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_products"
+            android:icon="@drawable/abc_ic_menu_paste_mtrl_am_alpha"
+            android:title="Products" />
+    </group>
+
+    <item android:title="About">
+        <menu>
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@android:drawable/ic_menu_call"
+                android:title="Contact Us" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@android:drawable/ic_dialog_info"
+                android:title="About Us" />
+            <item
+                android:id="@+id/nav_random"
+                android:icon="@android:drawable/ic_input_add"
+                android:title="Add Random Data" />
+        </menu>
+    </item>
+
+</menu>
